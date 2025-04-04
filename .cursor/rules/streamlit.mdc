@@ -1,0 +1,22 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# Your rule content
+
+- You can @ files here
+- You can use markdown but dont have to
+[
+  {
+    "description": "Tất cả các file Python (*.py) trong dự án phải sử dụng Streamlit làm framework cho giao diện. Giao diện phải được xây dựng chuyên nghiệp và thân thiện với người dùng.",
+    "pattern": "**/*.py",
+    "requirements": [
+      "Phải import Streamlit với 'import streamlit as st'",
+      "Giao diện được xây dựng trên Streamlit phải có thiết kế trực quan, hiện đại và dễ sử dụng.",
+      "Code cần có chú thích (comment) bằng tiếng Việt giải thích các đoạn code quan trọng.",
+      "Mã code phải chứa các liên kết tham khảo (URL) nếu có sử dụng tài liệu, thư viện hoặc nguồn ngoài hỗ trợ giải thích ý tưởng."
+    ]
+  }
+]
